@@ -1,1 +1,51 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"chronex-firebase","appId":"1:715746935625:android:99ffed62372b1be4bed098","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"chronex-firebase","appId":"1:715746935625:ios:f80db8c5ce0cb4c1bed098","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"chronex-firebase","appId":"1:715746935625:ios:f80db8c5ce0cb4c1bed098","uploadDebugSymbols":false,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"chronex-firebase","configurations":{"android":"1:715746935625:android:99ffed62372b1be4bed098","ios":"1:715746935625:ios:f80db8c5ce0cb4c1bed098","macos":"1:715746935625:ios:f80db8c5ce0cb4c1bed098","web":"1:715746935625:web:b524ed1d78184131bed098","windows":"1:715746935625:web:1ff0c1a358f96f87bed098"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chronex-firebase",
+          "appId": "1:715746935625:android:99ffed62372b1be4bed098",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "chronex-firebase",
+          "appId": "1:715746935625:ios:f80db8c5ce0cb4c1bed098",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "chronex-firebase",
+          "appId": "1:715746935625:ios:f80db8c5ce0cb4c1bed098",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chronex-firebase",
+          "configurations": {
+            "android": "1:715746935625:android:99ffed62372b1be4bed098",
+            "ios": "1:715746935625:ios:f80db8c5ce0cb4c1bed098",
+            "macos": "1:715746935625:ios:f80db8c5ce0cb4c1bed098",
+            "web": "1:715746935625:web:b524ed1d78184131bed098",
+            "windows": "1:715746935625:web:1ff0c1a358f96f87bed098"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "singleProjectMode": true,
+    "auth": {
+      "port": 9099
+    },
+    "ui": {
+      "enabled": true,
+      "port": 9098
+    }
+  }
+}
